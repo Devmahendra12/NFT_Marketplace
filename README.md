@@ -33,39 +33,37 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-.
-├── contracts/
-│   └── NFTMarketplace.sol
-├── pages/
-│   ├── create-nft.js
-│   ├── dashboard.js
-│   ├── index.js
-│   ├── my-nfts.js
-│   ├── resell-nft.js
-│   └── _app.js
-├── public/
-│   └── favicon.ico
-├── ├─ vercel.svg
-├── scripts/
-│   └── deploy.js
-├── styles/
-│   ├── globals.css
-│   └── Home.module.css
-├── test/
-│   └── sample-test.js
-├── .env
-├── .eslintrc
-├── .example.infuraid
-├── .gitignore
-├── .gitpod.yml
-├── config.example.js
-├── hardhat.config.js
-├── LICENSE.txt
-├── next.config.js
-├── package.json
-├── postcss.config.js
-├── README.md
-├── tailwind.config.js
-├── wallet.png
-└── yarn.lock
+contracts/
+└── NFTMarketplace.sol
+pages/
+├── create-nft.js
+├── dashboard.js
+├── index.js
+├── my-nfts.js
+├── resell-nft.js
+└── _app.js
+public/
+└── favicon.ico
+├─ vercel.svg
+scripts/
+└── deploy.js
+styles/
+├── globals.css
+└── Home.module.css
+test/
+└── sample-test.js
+.env
+.eslintrc
+.example.infuraid
+.gitignore
+.gitpod.yml
+config.example.js
+hardhat.config.js
+LICENSE.txt
+next.config.js
+package.json
+postcss.config.js
+README.md
+tailwind.config.js
+wallet.png
+yarn.lock
